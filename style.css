@@ -1,36 +1,19 @@
-/* Grundlayout */
 body {
-  margin: 0;
+  background-color: #f0f7f5;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4;
-  color: #222;
 }
 
-/* Navigation oben */
-header {
-  background-color: #2f6f5f;
-  padding: 1rem;
+h1 {
+  color: #2b6b5f;
 }
 
-.nav {
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav a {
-  color: white;
+nav a {
+  margin-right: 15px;
   text-decoration: none;
   font-weight: bold;
+  color: #2b6b5f;
 }
 
-.nav a:hover {
+nav a:hover {
   text-decoration: underline;
-}
-
-/* Inhalt */
-main {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: white;
 }

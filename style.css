@@ -215,5 +215,10 @@ main {
   padding: 0 1rem;
   font-weight: 600;
 }
+.container {
+  max-width: 900px;     /* Breite der Inhalte */
+  margin: 0 auto;       /* zentriert */
+  padding: 2rem 1rem;   /* Luft innen */
+}
 
 }

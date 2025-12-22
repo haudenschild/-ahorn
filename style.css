@@ -227,5 +227,28 @@ main {
   margin: 0 auto 1.5rem;
   border-radius: 6px;
 }
+.profil {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.profil img {
+  max-width: 280px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.profil-text {
+  max-width: 600px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .profil {
+    flex-direction: column;
+  }
+}
 
 }

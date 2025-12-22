@@ -220,5 +220,10 @@ main {
   margin: 0 auto;       /* zentriert */
   padding: 2rem 1rem;   /* Luft innen */
 }
+.container {
+  max-width: 960px;   /* Breite auf Desktop */
+  margin: 0 auto;     /* zentriert */
+  padding: 0 1.5rem;  /* Abstand links/rechts auf Mobile */
+}
 
 }

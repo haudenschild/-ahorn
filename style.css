@@ -221,10 +221,11 @@ main {
 }
 
 .portrait {
-  max-width: 360px;      /* Foto grösser */
+  display: block;
+  max-width: 420px;   /* grösseres Foto */
   width: 100%;
-  margin: 3rem auto 2rem; /* mehr Abstand oben & unten */
-  border-radius: 8px;
+  margin: 3rem auto;  /* oben/unten Abstand + zentriert */
+  border-radius: 10px;
 }
 
 

@@ -125,5 +125,16 @@ main {
   margin: 2rem 0;
   font-weight: 500;
 }
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.kontaktzeile {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #333;
+}
 
 }

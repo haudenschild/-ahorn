@@ -225,5 +225,10 @@ main {
   margin: 0 auto;     /* zentriert */
   padding: 0 1.5rem;  /* Abstand links/rechts auf Mobile */
 }
+.container{
+  max-width: 980px;   /* mach hier breiter/schmaler */
+  margin: 0 auto;
+  padding: 0 1rem;
+}
 
 }

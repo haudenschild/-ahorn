@@ -216,24 +216,9 @@ main {
   font-weight: 600;
 }
 .container {
-  max-width: 900px;     /* Breite der Inhalte */
-  margin: 0 auto;       /* zentriert */
-  padding: 2rem 1rem;   /* Luft innen */
-}
-.container {
-  max-width: 960px;   /* Breite auf Desktop */
-  margin: 0 auto;     /* zentriert */
-  padding: 0 1.5rem;  /* Abstand links/rechts auf Mobile */
-}
-.container{
-  max-width: 980px;   /* mach hier breiter/schmaler */
+  max-width: 980px;
   margin: 0 auto;
   padding: 0 1rem;
-}
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem;
 }
 .portrait {
   display: block;

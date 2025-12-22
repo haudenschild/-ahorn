@@ -215,11 +215,12 @@ main {
   padding: 0 1rem;
   font-weight: 600;
 }
-.container {
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 0 1rem;
+.container{
+  max-width: 980px;      /* Breite */
+  margin: 0 auto;        /* zentriert */
+  padding: 0 1rem;       /* Luft links/rechts */
 }
+
 .portrait {
   display: block;
   max-width: 280px;

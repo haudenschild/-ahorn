@@ -42,5 +42,42 @@ header {
   margin: 0 auto;
   padding: 2rem 1rem;
 }
+/* ==== RESET / BASIS ==== */
+html, body { margin: 0; padding: 0; }
+body { background: #fff; color: #111; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+
+/* ==== LAYOUT: alles mittig und etwas breiter ==== */
+.container {
+  max-width: 980px;     /* macht alles breiter */
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* ==== NAVIGATION: schwarz + zentriert ==== */
+header { background: #fff; }
+.nav {
+  display: flex;
+  justify-content: center;   /* zentriert das Menü */
+  gap: 18px;
+  flex-wrap: wrap;
+  padding: 14px 0;
+}
+
+.nav a {
+  color: #111;               /* Menü schwarz */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav a:hover { text-decoration: underline; }
+
+/* aktiver Menüpunkt (aria-current="page") */
+.nav a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+/* ==== falls irgendwo noch grün definiert ist ==== */
+header, main, footer { background: transparent; }
+
 
 

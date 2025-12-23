@@ -528,6 +528,28 @@ main {
   font-size: 3rem;
   margin: 0;
 }
+.subhero {
+  position: relative;
+}
+
+.subhero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+/* Sub-Banner soll nie breiter als der Container sein */
+.subhero {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;   /* optional */
+}
+
+.subhero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 
 

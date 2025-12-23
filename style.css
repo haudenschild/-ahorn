@@ -480,6 +480,31 @@ main {
   margin: 0;
   text-shadow: 0 2px 10px rgba(0,0,0,.35);
 }
+/* --- FIX Banner-Titel: immer weiss (überschreibt alles andere) --- */
+.subhero { 
+  position: relative; 
+}
+
+.subhero img { 
+  display: block; 
+  width: 100%; 
+  height: auto; 
+}
+
+.subhero-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.subhero-text h1 {
+  color: #fff !important;
+  margin: 0;
+  text-shadow: 0 2px 10px rgba(0,0,0,.35);
+}
 
 
 

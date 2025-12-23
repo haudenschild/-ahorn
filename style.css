@@ -505,6 +505,29 @@ main {
   margin: 0;
   text-shadow: 0 2px 10px rgba(0,0,0,.35);
 }
+/* Banner auf Unterseiten */
+.subhero {
+  position: relative;
+}
+
+.subhero img {
+  width: 100%;
+  display: block;
+}
+
+.subhero-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subhero-text h1 {
+  color: white !important;
+  font-size: 3rem;
+  margin: 0;
+}
 
 
 

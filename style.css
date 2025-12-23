@@ -550,6 +550,20 @@ main {
   width: 100%;
   height: auto;
 }
+/* --- Banner auf Unterseiten: Breite wie Container --- */
+.subhero {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 10px;   /* optional, kann bleiben */
+}
+
+.subhero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 
 

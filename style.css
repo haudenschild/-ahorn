@@ -320,5 +320,28 @@ main {
   margin: 0;
   font-size: 2.2rem;
 }
+.subhero {
+  position: relative;
+}
+
+.subhero img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+.subhero-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subhero-text h1 {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
 
 }

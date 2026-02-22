@@ -122,6 +122,26 @@ nav a.active {
 }
 
 
+.kurs-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kurs-logo-wrapper img {
+  max-width: 30%;
+  padding: 2rem;
+}
+
+/*#emfit-logo {*/
+/*  width: 30%;*/
+/*}*/
+
+#sgqt-logo {
+  height: 20vh;
+}
+
+
 .content p {
   line-height: 1.6;
 }

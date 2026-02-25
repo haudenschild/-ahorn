@@ -198,17 +198,6 @@ footer a:hover {
   font-weight: bolder;
 }
 
-@media (max-width: 768px) {
-  nav li {
-    margin: 0 10px;
-  }
-
-  .banner-wrapper,
-  .content {
-    width: 100%;
-  }
-}
-
 html, body {
   height: 100%;
   margin: 0;
@@ -222,4 +211,49 @@ html, body {
 
 main {
   flex: 1;
+}
+
+@media (max-width: 1618px) {
+  nav li {
+    margin: 0 10px;
+
+  }
+
+  .navbar{
+    visibility: hidden;
+  }
+
+  nav div{
+    width: 100%;
+  }
+
+  .wrapper {
+    max-width: 80%;
+  }
+
+  .wrapper_mobile{
+    max-width: 100%;
+  }
+
+  .wrapper_mobile img {
+    height: 18vh;
+  }
+
+  .footerDiv{
+    width: 100%;
+  }
+
+  .banner-wrapper,
+  .content {
+    width: 100%;
+  }
+
+  .banner-wrapper p {
+    font-size: 3rem;
+    left: 0;
+    /*width: 80%;*/
+    /*justify-content: center;*/
+    /*display: flex;*/
+    transform: translateY(0rem);
+  }
 }

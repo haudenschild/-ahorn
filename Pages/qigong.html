@@ -4,9 +4,12 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Qigong</title>
-    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="../Styles/style.css"/>
+    <link rel="stylesheet" href="../Styles/hamburger.css"/>
+    <script src="../script.js"></script>
 </head>
 <body>
+
 <nav class="navbar">
     <div>
         <ul>
@@ -17,6 +20,12 @@
         </ul>
     </div>
 </nav>
+
+<button onclick="toggle(this)" class="hamburger hamburger--collapse" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
 
 <div class="wrapper banner-wrapper wrapper_mobile">
     <img class="width100" src="../Images/bild-banner.jpg" alt="banner"/>

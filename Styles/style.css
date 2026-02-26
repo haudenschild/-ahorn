@@ -230,7 +230,7 @@ main {
   }
 
   .navbar {
-    visibility: hidden;
+    display: none;
   }
 
   nav div {
@@ -256,6 +256,7 @@ main {
   .banner-wrapper,
   .content {
     width: 100%;
+    margin-top: 0;
   }
 
   .banner-wrapper p {

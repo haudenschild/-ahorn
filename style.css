@@ -32,7 +32,6 @@ main {
 .wrapper {
   max-width: 40%;
   margin: 0 auto;
-  /* background: var(--bg); */
   /*min-height: 80vh;*/
   display: flex;
   flex-direction: column;

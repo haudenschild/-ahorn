@@ -224,6 +224,10 @@ main {
   display: none;
 }
 
+.burger-menu {
+  display: none;
+}
+
 @media (max-width: 1618px) {
   * {
     text-align: initial;

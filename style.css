@@ -221,6 +221,9 @@ main {
 }
 
 @media (max-width: 1618px) {
+  * {
+    text-align: initial;
+  }
   nav li {
     margin: 0 10px;
 
@@ -257,10 +260,10 @@ main {
 
   .banner-wrapper p {
     font-size: 3rem;
-    left: 0;
-    /*width: 80%;*/
-    /*justify-content: center;*/
-    /*display: flex;*/
-    transform: translateY(0rem);
+    left: initial;
+    transform: initial;
+    width: 80%;
+    margin: 0 auto;
+
   }
 }

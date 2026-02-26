@@ -220,6 +220,10 @@ main {
   flex: 1;
 }
 
+.header_text{
+  display: none;
+}
+
 @media (max-width: 1618px) {
   * {
     text-align: initial;
@@ -227,6 +231,14 @@ main {
   nav li {
     margin: 0 10px;
 
+  }
+
+  .header_text {
+    position: absolute;
+    width: 100%;
+    display: initial;
+    text-align: center;
+    justify-content: center;
   }
 
   .navbar {

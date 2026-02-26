@@ -37,20 +37,26 @@ main {
   flex-direction: column;
 }
 
-.width100{
+.width100 {
   width: 100%;
 }
 
-.flyer{
+.flyer {
   height: 84vh;
   margin: auto;
-  padding: 2vh 0 1vh;
-  display: block;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
   width: auto;
 }
 
-.home{
-  /*min-height: 90vh;*/
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 40%;
+  margin: 0 auto;
 }
 
 nav {
@@ -73,6 +79,7 @@ nav div {
 
 nav div ul {
   list-style: none;
+  text-align: center;
 }
 
 nav div li {
@@ -137,7 +144,8 @@ nav a.active {
   justify-content: center;
   align-items: center;
 }
-.emfit-logo-wrapper{
+
+.emfit-logo-wrapper {
   width: 30%;
   padding: 2rem;
   box-sizing: content-box;
@@ -149,7 +157,7 @@ nav a.active {
   box-sizing: content-box;
 }
 
-.emfit-logo-wrapper b{
+.emfit-logo-wrapper b {
   text-align: center;
   font-size: 0.69rem;
   padding-left: 2rem;
@@ -159,7 +167,7 @@ nav a.active {
   height: 20vh;
 }
 
-#portrait_yvonne{
+#portrait_yvonne {
   width: 100%;
   margin-top: 1.3rem;
   margin-bottom: 1.3rem;
@@ -170,6 +178,7 @@ nav a.active {
 }
 
 footer {
+  padding-top: 10px;
   position: relative;
   margin-top: auto;
   display: flex;
@@ -177,13 +186,15 @@ footer {
   width: 100%;
   text-align: center;
   font-size: 14px;
- }
+}
 
 .footerDiv {
-  padding: 15px 0;
+  padding: 1rem 0 1rem;
   width: 40%;
+  text-align: center;
   border-top: 5px solid var(--accent);
 }
+
 footer a {
   color: var(--text);
   text-decoration: none;
@@ -200,9 +211,6 @@ footer a:hover {
 html, body {
   height: 100%;
   margin: 0;
-}
-
- {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -218,11 +226,11 @@ main {
 
   }
 
-  .navbar{
+  .navbar {
     visibility: hidden;
   }
 
-  nav div{
+  nav div {
     width: 100%;
   }
 
@@ -230,7 +238,7 @@ main {
     max-width: 80%;
   }
 
-  .wrapper_mobile{
+  .wrapper_mobile {
     max-width: 100%;
   }
 
@@ -238,7 +246,7 @@ main {
     height: 18vh;
   }
 
-  .footerDiv{
+  .footerDiv {
     width: 100%;
   }
 

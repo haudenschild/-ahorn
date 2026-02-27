@@ -343,4 +343,20 @@ main {
     margin: 0;
   }
 
+  .home {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: auto;
+  }
+
+  .flyer {
+    height: auto;
+    padding: 0;
+    width: 100%;
+  }
+
 }

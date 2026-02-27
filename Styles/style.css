@@ -233,9 +233,8 @@ main {
     text-align: initial;
   }
 
-  nav li {
-    margin: 0 10px;
-
+  nav {
+   display: none;
   }
 
   .burger-menu {
@@ -294,10 +293,6 @@ main {
     justify-content: center;
   }
 
-  .navbar {
-    display: none;
-  }
-
   nav div {
     width: 100%;
   }
@@ -322,6 +317,10 @@ main {
   .content {
     width: 100%;
     margin-top: 0;
+  }
+
+  .content{
+    margin-bottom: 1rem;
   }
 
   .banner-wrapper p {

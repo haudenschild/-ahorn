@@ -208,6 +208,11 @@ footer a:hover {
   font-weight: bolder;
 }
 
+.impressum {
+  text-decoration: none;
+  color: black;
+}
+
 html, body {
   height: 100%;
   margin: 0;
@@ -228,9 +233,17 @@ main {
   display: none;
 }
 
+.br_footer{
+  display: none;
+}
+
 @media (max-width: 1618px) {
   * {
     text-align: initial;
+  }
+
+  .br_footer{
+    display: initial;
   }
 
   nav {
@@ -308,12 +321,16 @@ main {
   .footerDiv {
     width: 80%;
     padding-top: 0.5vh;
-    text-align: center;
+    /*text-align: center;*/
     border-top: initial;
   }
 
   footer {
     border-top: 5px solid var(--accent);
+  }
+
+  .impressum {
+    display: none;
   }
 
   .banner-wrapper,

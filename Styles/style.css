@@ -281,10 +281,6 @@ main {
     opacity: 0.5;
   }
 
-  /*.burger-menu-hide {*/
-  /*  transition: opacity 0.3s ease;*/
-  /*  transform: translateX(-100%)*/
-  /*}*/
   .header_text {
     position: absolute;
     width: 100%;
@@ -310,7 +306,14 @@ main {
   }
 
   .footerDiv {
-    width: 100%;
+    width: 80%;
+    padding-top: 0.5vh;
+    text-align: center;
+    border-top: initial;
+  }
+
+  footer {
+    border-top: 5px solid var(--accent);
   }
 
   .banner-wrapper,
@@ -320,7 +323,7 @@ main {
   }
 
   .content{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .banner-wrapper p {

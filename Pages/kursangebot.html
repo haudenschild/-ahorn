@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Kursangebot</title>
+    <link rel="stylesheet" href="../Styles/style.css"/>
+    <link rel="stylesheet" href="../Styles/hamburger.css"/>
+    <script src="../script.js"></script>
+</head>
+
+<body>
+
+<nav>
+    <div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="qigong.html">Qigong</a></li>
+            <li><a href="kursangebot.html" class="active">Kursangebot</a></li>
+            <li><a href="ueber-mich.html">Über mich</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="burger-menu burger-menu-hide" id="burger-menu">
+    <div style="height: 70%">
+        <a href="../index.html"><h1>Home</h1></a>
+        <div class="menu-divider"></div>
+        <a href="qigong.html"><h1>Qigong</h1></a>
+        <div class="menu-divider"></div>
+        <a onclick="toggle(this)" href="kursangebot.html"><h1>Kursangebot</h1></a>
+        <div class="menu-divider"></div>
+        <a href="ueber-mich.html"><h1>Über mich</h1></a>
+    </div>
+</div>
+
+<div style="display: flex; justify-content: initial; align-items: center; flex-wrap: wrap;">
+    <button onclick="toggle(this)" class="hamburger hamburger--collapse" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <h1 class="header_text">Kursangebot</h1>
+</div>
+
+<div class="wrapper banner-wrapper wrapper_mobile">
+    <img class="width100" src="../Images/bild-banner.jpg" alt="banner"/>
+    <p>Qigong</p>
+</div>
+
+<div class="wrapper">
+    <main>
+        <div class="content">
+            <h2>Kursangebot</h2> <br/>
+
+            <b>Aktuelle Kurse</b> <br/> <br/>
+            <b>Montag 8.30 – 9.45 Uhr</b> Gruppentraining
+            <br/>
+            <b>Mittwoch 18.00 – 19.15 Uhr</b> Gruppentraining
+            <br/> <br/>
+            <b>Gerbegraben 4, 3110 Münsingen, 1. Stock, Yoga Raum</b>
+            <br/> <br/> <br/>
+            <h3>Kosten</h3>
+            <p>Wird ein Trainingsblock gebucht, kostet eine Lektion à 75 Min Fr. 24.-
+                Bei Teilnahme an einzelnen Lektionen: Fr. 28.-</p>
+
+            <br/>
+
+            <p>Wir üben jeweils quartalsweise. Verpasste Lektionen können im selben Quartal vor- oder nachgeholt werden.
+                <br/>
+                Es sind
+                keine Vorkenntnisse notwendig, das Training ist für Anfänger:innen und Fortgeschrittene geeignet. Der
+                Einstieg ist
+                jederzeit möglich. Vor Ort werden Kursunterlagen abgegeben, so ist nach Wunsch auch zu Hause eine
+                selbständige
+                Vertiefung des Qigongs möglich. <br/> Eine Schnupperlektion ist kostenlos, melden Sie sich dazu bitte
+                vorgängig bei
+                mir.</p>
+
+            <br/> <br/>
+
+            <h3>Yvonne Oberhänsli</h3>
+            <p>Qigong Kursleiterin</p>
+            <p>aktuell in der Ausbildung zur Qigong Lehrerin an der Chen Akademie, Luzern</p>
+            <p>SGQT und EMfit Anerkennung</p>
+            <p>Ergotherapeutin FH</p>
+
+            <div class="kurs-logo-wrapper">
+                <img id="sgqt-logo" src="../Images/SGQT_Member_Logo_rot.png" alt="SGQT_Member_Logo_rot"/>
+                <img src="../Images/Logo_EMfit_defx.png" alt="EMfit Logo"/>
+
+            </div>
+        </div>
+
+    </main>
+</div>
+<footer class="footerFont">
+    <div class="footerDiv">
+        Qigong - Münsingen | © Copyright 2026 | <br class="br_footer"/>
+        <!--        <p>-->
+        Yvonne Oberhänsli |
+        <a href="mailto:yoberhaensli@gmx.ch">yoberhaensli@gmx.ch</a>
+        <a class="impressum">
+            | Impressum
+        </a>
+        <!--        </p>-->
+
+    </div>
+
+</footer>
+
+</body>
+</html>

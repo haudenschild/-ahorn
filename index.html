@@ -1,43 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Herzlich Willkommen</title>
- <link rel="stylesheet" href="style.css?v=7" />
-
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Qigong-Münsingen</title>
+    <link rel="stylesheet" href="Styles/style.css"/>
+    <link rel="stylesheet" href="Styles/hamburger.css"/>
+    <script src="script.js"></script>
 </head>
+
 <body>
-  <header>
-  <div class="container">
-   <nav class="nav">
-      <a href="index.html" aria-current="page">Herzlich willkommen</a>
-      <a href="qigong.html">Qigong</a>
-      <a href="kursangebot.html">Kursangebot</a>
-      <a href="ueber-mich.html">Über mich</a>
-    </nav>
-  </header>
-
- <section class="hero">
-  <div class="container">
-    <img src="bild-startseite.jpg" alt="Medizinisches Qigong in Münsingen">
-    <div class="hero-text">
-      <p class="hero-small">Medizinisches</p>
-      <h1>Qigong</h1>
-      <p class="hero-small">in Münsingen</p>
-      <p class="hero-sub">Entspannt, langsam, fließend und leicht</p>
+<nav>
+    <div>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="./Pages/qigong.html">Qigong</a></li>
+            <li><a href="./Pages/kursangebot.html">Kursangebot</a></li>
+            <li><a href="./Pages/ueber-mich.html">Über mich</a></li>
+        </ul>
     </div>
-  </div>
-</section>
+</nav>
 
-<div class="container">
-  <p class="contact">
-    Yvonne Oberhänsli · 078 846 95 06 ·
-    <a href="mailto:yoberhaensli@gmx.ch">yoberhaensli@gmx.ch</a>
-  </p>
+<div class="burger-menu burger-menu-hide" id="burger-menu">
+    <div style="height: 70%">
+        <a onclick="toggle(this)" href="#"><h1>Home</h1></a>
+        <div class="menu-divider"></div>
+        <a href="./Pages/qigong.html"><h1>Qigong</h1></a>
+        <div class="menu-divider"></div>
+        <a href="./Pages/kursangebot.html"><h1>Kursangebot</h1></a>
+        <div class="menu-divider"></div>
+        <a href="./Pages/ueber-mich.html"><h1>Über mich</h1></a>
+    </div>
 </div>
 
+<div style="display: flex; justify-content: initial; align-items: center; flex-wrap: wrap;">
+    <button onclick="toggle(this)" class="hamburger hamburger--collapse" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <h1 style="margin-left: 3ch; width: calc(100% - 3ch)" class="header_text">Herzlich Willkommen</h1>
+</div>
+
+<div class="home">
+    <img class="width100 flyer" src="./Images/Flyer_Home.png" alt="Flyer Home"/>
+</div>
+
+<footer class="footerFont">
+    <div class="footerDiv">
+        Qigong - Münsingen | © Copyright 2026 | <br class="br_footer"/>
+        <!--        <p>-->
+        Yvonne Oberhänsli |
+        <a href="mailto:yoberhaensli@gmx.ch">yoberhaensli@gmx.ch</a>
+        <a class="impressum">
+            | Impressum
+        </a>
+        <!--        </p>-->
+
+    </div>
+
+</footer>
 
 </body>
-
 </html>

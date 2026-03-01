@@ -191,8 +191,8 @@ footer a:hover {
 }
 
 .impressum {
-  text-decoration: none;
-  color: black;
+  text-decoration: underline;
+  color: blue;
 }
 
 html, body {
@@ -215,13 +215,11 @@ main {
   display: none;
 }
 
-.br_footer{
+.br_footer {
   display: none;
 }
 
-.yvonne_info{
-  /*text-align: center;*/
-  /*width: 100%;*/
+.yvonne_info {
   max-width: 100%;
   display: flex;
   justify-content: space-between;
@@ -237,28 +235,16 @@ main {
 }
 
 @media (max-width: 1618px) {
-  .yvonne_info{
-    display: initial;
-  }
-  .yvonne_info * {
-    margin: 0;
-  }
-
-  .tel {
-    transform: translateY(0.2rem);
-    width: 100%;
-  }
-
   * {
     text-align: initial;
   }
 
-  .br_footer{
+  .br_footer {
     display: initial;
   }
 
   nav {
-   display: none;
+    display: none;
   }
 
   .burger-menu {
@@ -350,7 +336,7 @@ main {
     margin-top: 0;
   }
 
-  .content{
+  .content {
     margin-bottom: 2rem;
   }
 
@@ -363,11 +349,11 @@ main {
 
   }
 
-  .kurs-logo-wrapper{
+  .kurs-logo-wrapper {
     padding: 2rem;
   }
 
-  .kurs-logo-wrapper img{
+  .kurs-logo-wrapper img {
     max-width: 100%;
     margin: 0;
   }
@@ -386,6 +372,23 @@ main {
     height: auto;
     padding: 0;
     width: 100%;
+  }
+
+  .yvonne_info {
+    display: initial;
+  }
+
+  .yvonne_info * {
+    margin: 0;
+  }
+
+  .tel {
+    transform: translateY(0.2rem);
+    width: 100%;
+  }
+
+  .footer_sep {
+    display: none;
   }
 
 }

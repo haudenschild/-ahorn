@@ -1,10 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AGB</title>
+    <link rel="stylesheet" href="../Styles/style.css"/>
+    <link rel="stylesheet" href="../Styles/hamburger.css"/>
+    <script src="../script.js"></script>
 </head>
 <body>
 
+<nav>
+    <div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="qigong.html">Qigong</a></li>
+            <li><a href="kursangebot.html">Kursangebot</a></li>
+            <li><a href="ueber-mich.html" >Über mich</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="burger-menu burger-menu-hide" id="burger-menu">
+    <div style="height: 70%">
+        <a href="../index.html"><h1>Home</h1></a>
+        <div class="menu-divider"></div>
+        <a href="qigong.html"><h1>Qigong</h1></a>
+        <div class="menu-divider"></div>
+        <a href="kursangebot.html"><h1>Kursangebot</h1></a>
+        <div class="menu-divider"></div>
+        <a href="ueber-mich.html"><h1>Über mich</h1></a>
+        <div class="menu-divider"></div>
+        <a onclick="toggle(this)" href="agb.html"><h1>AGB</h1></a>
+
+    </div>
+</div>
+
+<div style="display: flex; justify-content: initial; align-items: center; flex-wrap: wrap;">
+    <button onclick="toggle(this)" class="hamburger hamburger--collapse" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <h1 style="margin-top: 0.5vh;" class="header_text">ABG</h1>
+</div>
+
+<div class="wrapper banner-wrapper wrapper_mobile">
+    <img class="width100" src="../Images/bild-banner.jpg" alt="banner"/>
+    <p>Qigong</p>
+</div>
+
+<div class="wrapper">
+    <main>
+        <div class="content">
+            <p>
+                Kommt bald!
+            </p>
+        </div>
+    </main>
+</div>
+
+<footer class="footerFont">
+    <div class="footerDiv">
+        Qigong - Münsingen | © Copyright 2026 | <br class="br_footer"/> Yvonne Oberhänsli |
+        <a href="mailto:yoberhaensli@gmx.ch">yoberhaensli@gmx.ch</a>
+        <a class="footer_sep">|</a>
+        <a href="agb.html" class="impressum">Impressum</a>
+    </div>
+</footer>
 </body>
 </html>
